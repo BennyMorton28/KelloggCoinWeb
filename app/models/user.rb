@@ -1,3 +1,3 @@
 class User < ApplicationRecord
-  # connects to users table
+  has_many :transactions
 end
